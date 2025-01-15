@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="C-TECH is a leading contracting company specializing in central air conditioning and HVAC systems. We provide comprehensive solutions for factories, hotels, malls, and large-scale projects, ensuring efficiency and reliability for all your HVAC needs.">
+    <title>C-Tech</title>
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid nav-back">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home" data-en="Home"
+                            data-ar="الرئيسية">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#about" data-en="About" data-ar="من نحن">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#services" data-en="Services"
+                            data-ar="خدمات">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#projects" data-en="Projects"
+                            data-ar="المشاريع">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#distributor" data-en="Distributor"
+                            data-ar="الموزع">Distributor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#contact" data-en="Contact US"
+                            data-ar="اتصل بنا">Contact US</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false" data-en="Language" data-ar="اللغة">Language</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#" onclick="switchLanguage('ar')" data-en="Arabic"
+                                    data-ar="العربيه">العربيه</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="switchLanguage('en')" data-en="English"
+                                    data-ar="الإنجليزية">English</a></li>
+                        </ul>
+
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="background"></div>
+    <section id="home" class="d-flex justify-content-center align-items-center">
+        <div class="landing container-fluid grid text-center">
+            <!-- Heading with English and Arabic translations -->
+            <h1 class="text-center const col-md-12 col-sm-12" data-en="Construction technology"
+                data-ar="تكنولوجيا البناء">Construction technology</h1>
+
+            <!-- Paragraph placeholder for the typewriter effect, to be dynamically translated -->
+            <p class="intro typewriter" data-en="" data-ar=""></p>
+
+            <div class="con-but ms-auto me-auto">
+                <!-- Button: Contact Us -->
+                <button type="button" class="btn btn-primary">
+                    <span data-en="Contact Us" data-ar="اتصل بنا">Contact Us</span>
+                </button>
+
+                <!-- Button: Request Quotation -->
+                <button type="button" id="requestQuoteBtn" class="btn btn-info">
+                    <span data-en="Request Quotation" data-ar="طلب عرض سعر">Request Quotation</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col color">
+                    <!-- Heading with English and Arabic translations -->
+                    <h2 class="display-4" data-en="Our Journey to Innovation" data-ar="رحلتنا نحو الابتكار">Our Journey
+                        to Innovation</h2>
+                    <!-- Lead paragraph with translations -->
+                    <p class="lead"
+                        data-en="Explore our milestones, achievements, and the vision that drives us forward."
+                        data-ar="استكشف إنجازاتنا ومعالمنا ورؤيتنا التي تدفعنا إلى الأمام.">Explore our milestones,
+                        achievements, and the vision that drives us forward.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="timeline">
+                        <!-- Timeline item 1 -->
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fas fa-flag text-dark"></i>
+                            </div>
+                            <div class="timeline-content invisible">
+                                <h4 data-en="C-TECH's Legacy in Saudi Arabia"
+                                    data-ar="C-TECH في المملكة العربية السعودية">C-TECH's Legacy in Saudi Arabia
+                                </h4>
+                                <p class="text-muted"
+                                    data-en="C-TECH Contracting CO is a pioneer in civil & the air conditioning contracting market in the Kingdom of Saudi Arabia, at a steady pace to keep pace with the continuous and accelerating urban development experienced by our beloved Kingdom of Saudi Arabia."
+                                    data-ar="شركة C-TECH للمقاولات رائدة في السوق السعودي في مجال المقاولات المدنية وتكييف الهواء، بخطى ثابتة لمواكبة التطور العمراني المتسارع في المملكة العربية السعودية.">
+                                    C-TECH Contracting CO is a pioneer in civil & the air conditioning contracting
+                                    market in the Kingdom of Saudi Arabia, at a steady pace to keep pace with the
+                                    continuous and accelerating urban development experienced by our beloved Kingdom of
+                                    Saudi Arabia.</p>
+                            </div>
+                        </div>
+
+                        <!-- Timeline item 2 -->
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fa-regular fa-handshake text-dark"></i>
+                            </div>
+                            <div class="timeline-content rev-invisible">
+                                <h4 data-en="Trusted for Quality and Service" data-ar="موثوق للجودة والخدمة">Trusted for
+                                    Quality and Service</h4>
+                                <p class="text-muted"
+                                    data-en="The name of C-TECH Contracting Conditioning is consistent with quality and commitment to customers..."
+                                    data-ar="يُعرف اسم C-TECH للمقاولات بأنه رمز للجودة والاحترافية في قطاع المقاولات.
+                                    لقد أثبتنا التزامنا بالجودة من خلال تنفيذ مشاريع متميزة في مجموعة متنوعة من المجالات، مع التركيز على الدقة والالتزام بالمواعيد النهائية. لقد حصلنا على ثقة عملائنا بفضل تقديم خدمات ممتازة، ونتعامل مع كل مشروع بكفاءة واهتمام لضمان تحقيق النتائج المرجوة.">
+                                    The name of
+                                    C-TECH Contracting Conditioning is consistent with quality and commitment to
+                                    customers...</p>
+                            </div>
+                        </div>
+
+                        <!-- Timeline item 3 -->
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fa-solid fa-eye text-dark"></i>
+                            </div>
+                            <div class="timeline-content invisible">
+                                <h4 data-en="Our Vision" data-ar="رؤيتنا">Our Vision</h4>
+                                <p class="text-muted"
+                                    data-en="To be the first and pioneer in the Arab Gulf by directing and unifying our maximum capacity from our human resources..."
+                                    data-ar="أن نكون الأوائل والرائدين في الخليج العربي من خلال توجيه وتوحيد أقصى قدراتنا من مواردنا البشرية، مع التركيز على الابتكار والتفوق التكنولوجي لتقديم حلول متكاملة ومتميزة تلبي احتياجات عملائنا وتساهم في تحقيق تطلعاتهم في كل مشروع نقوم به.">
+                                    To be the first and pioneer in the Arab Gulf by directing and unifying our maximum
+                                    capacity from our human resources...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Founders' Vision -->
+            <div class="row mt-5">
+                <div class="col text-center text-light">
+                    <h3 class="mb-4" data-en="Founders' Vision" data-ar="رؤية المؤسسين">Founders' Vision</h3>
+                    <blockquote class="blockquote">
+                        <p class="mb-5"
+                            data-en="Our vision is to create a more comfortable and sustainable world through cutting-edge construction technologies."
+                            data-ar="رؤيتنا هي إنشاء عالم أكثر راحة واستدامة من خلال تقنيات البناء المتقدمة.">"Our
+                            vision is to create a more comfortable and sustainable world through cutting-edge
+                            construction technologies."</p>
+                    </blockquote>
+                </div>
+            </div>
+
+            <!-- Statistics -->
+            <div class="row mt-5 text-center text-light">
+                <div class="col-md-4">
+                    <div class="counter">
+                        <h2 class="display-4"><span class="counter-value" data-target="20">0</span>+</h2>
+                        <p class="lead" data-en="Years of Experience" data-ar="سنوات من الخبرة">Years of Experience</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="counter">
+                        <h2 class="display-4"><span class="counter-value" data-target="190">0</span>+</h2>
+                        <p class="lead" data-en="Projects Completed" data-ar="المشاريع المكتملة">Projects Completed</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="counter">
+                        <h2 class="display-4"><span class="counter-value" data-target="5">0</span>+</h2>
+                        <p class="lead" data-en="Awards Won" data-ar="الجوائز التي حصلنا عليها">Awards Won</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <!-- Section Title -->
+            <div class="row text-center mb-5 color">
+                <div class="col">
+                    <h2 class="display-4" data-en="Our Services" data-ar="خدماتنا">Our Services</h2>
+                    <p class="lead" data-en="Discover the range of services we offer to meet your needs."
+                        data-ar="اكتشف مجموعة الخدمات التي نقدمها لتلبية احتياجاتك.">
+                        Discover the range of services we offer to meet your needs.
+                    </p>
+                </div>
+            </div>
+            <!-- Services Grid -->
+            <div class="row">
+                <!-- HVAC Service -->
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card text-center">
+                        <div class="card-body">
+                            <div class="service-icon mx-auto">
+                                <i class="fas fa-thermometer-half"></i>
+                            </div>
+                            <h3 class="service-title" data-en="HVAC" data-ar="التكييف">HVAC</h3>
+                            <p class="service-description"
+                                data-en="Comprehensive heating, ventilation, and air conditioning solutions for optimal comfort."
+                                data-ar="حلول شاملة للتدفئة والتهوية وتكييف الهواء لتحقيق الراحة المثلى.">
+                                Comprehensive heating, ventilation, and air conditioning solutions for optimal comfort.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Plumbing Service -->
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card text-center">
+                        <div class="card-body">
+                            <div class="service-icon mx-auto">
+                                <i class="fa-solid fa-faucet-drip"></i>
+                            </div>
+                            <h3 class="service-title" data-en="Plumbing" data-ar="السباكة">Plumbing</h3>
+                            <p class="service-description"
+                                data-en="Expert plumbing services to ensure efficient and reliable water systems."
+                                data-ar="خدمات السباكة المتخصصة لضمان كفاءة وموثوقية أنظمة المياه.">
+                                Expert plumbing services to ensure efficient and reliable water systems.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Electrical Service -->
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card text-center">
+                        <div class="card-body">
+                            <div class="service-icon mx-auto">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <h3 class="service-title" data-en="Electrical" data-ar="الكهرباء">Electrical</h3>
+                            <p class="service-description"
+                                data-en="Professional electrical services for safe and effective power solutions."
+                                data-ar="خدمات كهربائية احترافية لتوفير حلول طاقة آمنة وفعالة.">
+                                Professional electrical services for safe and effective power solutions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Civil Work Service -->
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card text-center">
+                        <div class="card-body">
+                            <div class="service-icon mx-auto">
+                                <i class="fas fa-hard-hat"></i>
+                            </div>
+                            <h3 class="service-title" data-en="Civil Work" data-ar="الأعمال المدنية">Civil Work</h3>
+                            <p class="service-description"
+                                data-en="High-quality civil work to support construction and infrastructure projects."
+                                data-ar="أعمال مدنية عالية الجودة لدعم مشاريع البناء والبنية التحتية.">
+                                High-quality civil work to support construction and infrastructure projects.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Interior Design Service -->
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card text-center">
+                        <div class="card-body">
+                            <div class="service-icon mx-auto">
+                                <i class="fas fa-paint-brush"></i>
+                            </div>
+                            <h3 class="service-title" data-en="Interior Design" data-ar="التصميم الداخلي">Interior
+                                Design</h3>
+                            <p class="service-description"
+                                data-en="Creative interior design solutions to enhance your living and working spaces."
+                                data-ar="حلول التصميم الداخلي الإبداعية لتحسين مساحات المعيشة الخاصة بك.">
+                                Creative interior design solutions to enhance your living and working spaces.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Finishing Service -->
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card text-center">
+                        <div class="card-body">
+                            <div class="service-icon mx-auto">
+                                <i class="fa-solid fa-brush"></i>
+                            </div>
+                            <h3 class="service-title" data-en="Finishing" data-ar="التشطيبات">Finishing</h3>
+                            <p class="service-description"
+                                data-en="Detailed finishing services to add the final touches to your projects."
+                                data-ar="خدمات التشطيبات التفصيلية لإضافة اللمسات النهائية لمشاريعك.">
+                                Detailed finishing services to add the final touches to your projects.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <div class="row text-center mb-5 color">
+                <div class="col">
+                    <h2 class="display-4" data-en="Our Projects" data-ar="مشاريعنا">Our Projects</h2>
+                    <p class="lead"
+                        data-en="Explore our diverse range of projects and see the excellence we've delivered."
+                        data-ar="استكشف مجموعة مشاريعنا المتنوعة وشاهد التميز الذي قدمناه.">
+                        Explore our diverse range of projects and see the excellence we've delivered.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Project 1 -->
+                <div class="col-md-6 mb-6 pro project-item visible">
+                    <div class="project-card">
+                        <img src="/img/project1.webp" alt="Project Title 1">
+                        <div class="project-title" data-en="Boulevard World (China - France - Egypt)"
+                            data-ar="بوليفارد وورلد (الصين - فرنسا - مصر)">
+                            Boulevard World (China - France - Egypt)
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="col-md-6 mb-6 pro project-item visible">
+                    <div class="project-card">
+                        <img src="/img/project2.webp" alt="Project Title 2">
+                        <div class="project-title" data-en="King Abdulaziz Equestrian Field"
+                            data-ar="ميدان الملك عبد العزيز للفروسية">
+                            King Abdulaziz Equestrian Field
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="col-md-6 mb-6 pro project-item visible">
+
+                    <div class="project-card">
+                        <img src="img/project3.webp" alt="Project Title 3">
+                        <div class="project-title" data-en="AL AFAQ Private Schools" data-ar="مدارس الأفق الخاصة">
+                            AL AFAQ Private Schools
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Project 4 -->
+                <div class="col-md-6 mb-6 pro project-item visible">
+                    <div class="project-card">
+                        <img src="img/project4.webp" alt="Project Title 4">
+                        <div class="project-title" data-en="SACO ALEHSAA" data-ar="ساكو الأحساء">
+                            SACO ALEHSAA
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 5 -->
+                <div class="col-md-6 mb-6 pro project-item">
+                    <div class="project-card">
+                        <img src="img/project6.webp" alt="Project Title 5">
+                        <div class="project-title" data-en="SNB – Saudi National Bank"
+                            data-ar="البنك الوطني السعودي - SNB">
+                            SNB – Saudi National Bank
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 6 -->
+                <div class="col-md-6 mb-6 pro project-item">
+                    <div class="project-card">
+                        <img src="img/project7.webp" alt="Project Title 6">
+                        <div class="project-title" data-en="Abdul Latif Jameel-TOYOTA"
+                            data-ar="عبد اللطيف جميل - تويوتا">
+                            Abdul Latif Jameel-TOYOTA
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 7 -->
+                <div class="col-md-6 mb-6 pro project-item">
+                    <div class="project-card">
+                        <img src="img/project8.webp" alt="Project Title 7">
+                        <div class="project-title" data-en="Rajhi Bank Branches" data-ar="فروع بنك الراجحي">
+                            Rajhi Bank Branches
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 8 -->
+                <div class="col-md-6 mb-6 pro project-item">
+                    <div class="project-card">
+                        <img src="img/project9.webp" alt="Project Title 8">
+                        <div class="project-title" data-en="Marriott Hotel" data-ar="فندق ماريوت">
+                            Marriott Hotel
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 9 -->
+                <div class="col-md-6 mb-6 pro project-item">
+                    <div class="project-card">
+                        <img src="img/project10.webp" alt="Project Title 9">
+                        <div class="project-title" data-en="Nakhla Foodstuff Factory"
+                            data-ar="مصنع نخلة للمواد الغذائية">
+                            Nakhla Foodstuff Factory
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 10 -->
+                <div class="col-md-6 mb-6 pro project-item">
+                    <div class="project-card">
+                        <img src="img/project11.webp" alt="Project Title 10">
+                        <div class="project-title" data-en="King Saud University Dental Hospital"
+                            data-ar="مستشفى الأسنان بجامعة الملك سعود">
+                            King Saud University Dental Hospital
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script> $(document).ready(function () {
+                let projectCount = 4; // Number of projects initially visible
+                const projectsPerPage = 4; // Number of projects to show at a time
+                const $projects = $('.project-item');
+                const totalProjects = $projects.length;
+                // Initially show only a limited number of projects
+                $projects.slice(0, projectCount).addClass('visible');
+                // Click event for the "See More" button
+                $('#loadMore').click(function () {
+                    projectCount += projectsPerPage; // Show more projects
+                    $projects.slice(0, projectCount).addClass('visible');
+                    // If all projects are visible, show the "Show Less" button and hide "See More"
+                    if (projectCount >= totalProjects) {
+                        $('#loadMore').fadeOut();
+                        $('#showLess').fadeIn();
+                    }
+                });
+                // Click event for the "Show Less" button
+                $('#showLess').click(function () {
+                    projectCount = projectsPerPage; // Reset to initially visible projects
+                    $projects.removeClass('visible').slice(0, projectCount).addClass('visible');
+                    // Show the "See More" button and hide "Show Less"
+                    $('#loadMore').fadeIn();
+                    $('#showLess').fadeOut();
+                });
+            });
+        </script>
+        <div class="row ms-auto me-auto py-2">
+            <div class="col text-center">
+                <button id="loadMore" class="btn btn-primary bg-dark" data-en="See More" data-ar="عرض المزيد">
+                    See More
+                </button>
+                <button id="showLess" class="btn btn-primary bg-dark" style="display: none;" data-en="Show Less"
+                    data-ar="عرض أقل">
+                    Show Less
+                </button>
+            </div>
+        </div>
+    </section>
+    <section id="distributor" class="py-5 bg-light">
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <img src="/img/samsung.png" alt="Samsung Logo" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-md-6 color">
+                    <h2 class="display-4 mb-3" data-en="Authorized Distributor for Samsung"
+                        data-ar="موزع معتمد لدى سامسونج">
+                        Authorized Distributor for Samsung
+                    </h2>
+                    <p class="lead"
+                        data-en="We are thrilled to be an Authorized Distributor for Samsung, bringing you premium products and dedicated support. Discover our Samsung range today!"
+                        data-ar="نحن متحمسون لأن نكون موزعًا معتمدًا لشركة سامسونج، نقدم لك منتجات ممتازة ودعمًا مخصصًا. اكتشف مجموعة سامسونج لدينا اليوم!">
+                        We are thrilled to be an Authorized Distributor for Samsung, bringing you premium products and
+                        dedicated support. Discover our Samsung range today!
+                    </p>
+                    <button type="button" id="requestQuoteBtnn" class="btn btn-info" data-en="Request Quotation"
+                        data-ar="طلب عرض الأسعار">
+                        <span>Request Quotation</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="thankYouMessage" style="display: none;"
+            data-en="Thank you for your submission, Redirecting you back to the website..."
+            data-ar="شكرًا لك على تقديمك، سيتم تحويلك مرة أخرى إلى الموقع...">
+            <p class="color">Thank you for your submission, Redirecting you back to the website...</p>
+        </div>
+    </section>
+
+
+
+    <section id="contact">
+        <div class="foot">
+            <!-- Footer -->
+            <footer class="text-center text-lg-start text-white">
+                <!-- Grid container -->
+                <div class="container p-4 pb-0">
+                    <!-- Section: Links -->
+                    <!--Grid row-->
+                    <div class="row">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-4 font-weight-bold">
+                                <span class="color" data-en="Construction technology" data-ar="تكنولوجيا البناء">
+                                    Construction technology
+                                </span>
+                            </h6>
+                            <div class="vision d-flex align-items-center w-100 mt-4">
+                                <a href="https://www.vision2030.gov.sa/en" target="_blank">
+                                    <img src="img/vision.png" alt="Vision-2030" class="img-fluid pb-2">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Grid column -->
+                        <hr class="w-100 clearfix d-md-none" />
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-4 font-weight-bold" data-en="Contact" data-ar="اتصال">
+                                Contact
+                            </h6>
+                            <a class="colorr" href="tel:+966536742133">
+                                <p>
+                                    <i class="fas fa-phone mr-3"></i>
+                                    <span data-en="+966536742133" data-ar="+966536742133">+966536742133</span>
+                                </p>
+                            </a>
+                            <a href="http://wa.me/966544741553" target="_blank" class="colorr">
+                                <p><i class="fa-brands fa-whatsapp"></i> <span data-en="+966544741553"
+                                        data-ar="+966544741553">+966544741553</span></p>
+                            </a>
+                        </div>
+                        <!-- Grid column -->
+                        <hr class="w-100 clearfix d-md-none" />
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-4 font-weight-bold" data-en="E-mail"
+                                data-ar="البريد الإلكتروني">
+                                E-mail
+                            </h6>
+                            <a href="mailto:info@ctechcontracting.com" class="colorr">
+                                <p><i class="fas fa-envelope mr-3"></i> <span data-en="info@ctechcontracting.com"
+                                        data-ar="info@ctechcontracting.com">info@ctechcontracting.com</span></p>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-4 font-weight-bold" data-en="Follow us" data-ar="تابعنا">
+                                Follow us
+                            </h6>
+                            <!-- Twitter -->
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#!"
+                                role="button">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <!-- Instagram -->
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!"
+                                role="button">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <!-- snap -->
+                            <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!"
+                                role="button">
+                                <i class="fa-brands fa-snapchat"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                    <p class="footer-text" data-en="© 2024 C_TECH. All rights reserved."
+                        data-ar="© 2024 C_TECH. جميع الحقوق محفوظة.">
+                        © 2024 C_TECH. All rights reserved.
+                    </p>
+                    <p class="footer-text color" style="font-size: 1em; text-align: center;">Designed & Development by
+                        <a class="watermark" href="https://www.facebook.com/7omosa96?locale=ar_AR"
+                            target="_blank">&lt;A-Z&gt;</a>
+                    </p>
+                </div>
+
+            </footer>
+        </div>
+    </section>
+
+
+
+    <div id="contactwind" class="wind">
+        <div class="wind-content">
+            <span class="close">&times;</span>
+            <h2>Contact US</h2>
+            <ul class="list-unstyled text-center">
+                <li>
+                    <strong>
+                        <i class="fa-regular fa-envelope"></i>
+                        E-mail
+                    </strong>
+                </li>
+                <a href="mailto:info@ctechcontracting.com" class="text-foot">
+                    <li class="mb-3">info@ctechcontracting.com</li>
+                </a>
+                <li>
+                    <strong>
+                        <i class="fa-solid fa-phone"></i>
+                        Phone
+                    </strong>
+                </li>
+                <li class="mb-3">+966536742133</li>
+                <li>
+                    <strong>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        Whatsapp
+                    </strong>
+                </li>
+                <li class="mb-3"><a class="whats color" href="http://wa.me/966544741553"
+                        target="_blank">+966544741553</a></li>
+            </ul>
+            <p class="text-center"><strong>Whatsapp QR</strong></p>
+            <img src="/img/qr.jpg" alt="QR Code" class="qr-code" />
+        </div>
+    </div>
+    <!-- Modal -->
+    <div id="formContainer" class="custom-form-container d-none">
+        <div class="custom-form-content">
+            <span class="exit">&times;</span>
+            <form id="myForm" method="POST" action="https://api.web3forms.com/submit">
+                <input id="name" type="hidden" name="access_key" value="65ffabf5-67eb-455f-83ac-e9ef5b7124b0">
+                <!-- Form Fields -->
+                <div class="form-row">
+                    <h2 class="color">Request Quotation</h2>
+                    <div class="form-group col-lg-12 col-md-12">
+                        <!-- <label class="label" for="user">Name:</label> -->
+                        <input type="text" class="form-control" id="user" name="user" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group col-lg-12 col-md-12">
+                        <!-- <label class="label" for="phone">Phone:</label> -->
+                        <input type="text" class="form-control" id="phone" name="phone" placeholder="Your Phone"
+                            required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-lg-12 col-md-12">
+                        <!-- <label class="label" for="email">E-Mail:</label> -->
+                        <input type="email" class="form-control" id="email" name="email"
+                            placeholder="Your E-mail Address" required>
+                    </div>
+                    <div class="form-group col-lg-12 col-md-12">
+                        <!-- <label class="label" for="service">Service:</label> -->
+                        <select id="service" class="form-select" aria-label="Default select example" name="service"
+                            required>
+                            <option value="" disabled selected>Select Service...</option>
+                            <option value="HVAC">HVAC</option>
+                            <option value="Plumbing">Plumbing</option>
+                            <option value="Electrical">Electrical</option>
+                            <option value="Civil Work">Civil Work</option>
+                            <option value="Interior Design">Interior Design</option>
+                            <option value="Finishing">Finishing</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-lg-12 col-md-12">
+                        <!-- <label class="label" for="country">Country:</label> -->
+                        <select id="country" class="form-select" aria-label="Default select example" name="country"
+                            required>
+                            <option value="" disabled selected>Select Country...</option>
+                            <option value="Egypt">Egypt</option>
+                            <option value="Saudi Arabia">Saudi Arabia</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-lg-12 col-md-12">
+                        <!-- <label class="label" for="Message">Message:</label> -->
+                        <textarea class="form-control" id="Message" name="message" placeholder="Write Your Message..."
+                            rows="3" required></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn cuz mt-2"><span>Send</span></button>
+            </form>
+        </div>
+    </div>
+    <!-- Modal2 -->
+    <div id="formContainerr" class="custom-form-containerr d-none">
+        <div class="custom-form-contentt">
+            <span class="exitt">&times;</span>
+            <form id="myFormm" method="POST" action="https://api.web3forms.com/submit">
+                <input id="name" type="hidden" name="access_key" value="65ffabf5-67eb-455f-83ac-e9ef5b7124b0">
+                <!-- Form Fields -->
+                <h2 class="color">Request Samsung Quotation</h2>
+                <div class="form-row">
+                    <div class="form-group col-lg-12 col-md-12">
+                        <!-- <label class="label" for="user">Name:</label> -->
+                        <input type="text" class="form-control" id="user" name="user" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group col-lg-12 col-md-12">
+                        <!-- <label class="label" for="phone">Phone:</label> -->
+                        <input type="text" class="form-control" id="phone" name="phone" placeholder="Your Phone"
+                            required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-lg-12 col-md-12">
+                        <!-- <label class="label" for="email">E-Mail:</label> -->
+                        <input type="email" class="form-control" id="email" name="email"
+                            placeholder="Your E-mail Address" required>
+                    </div>
+                    <div class="form-group col-lg-12 col-md-12">
+                        <!-- <label class="label" for="service">Service:</label> -->
+                        <select id="service" class="form-select" aria-label="Default select example" name="service"
+                            required>
+                            <option value="" disabled selected>Select Service...</option>
+                            <option value="Supply (Samsung)">Supply</option>
+                            <option value="Supply and install (Samsung)">Supply and install</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-lg-12 col-md-12">
+                        <!-- <label class="label" for="type">type:</label> -->
+                        <select id="type" class="form-select" aria-label="Default select example" name="type" required>
+                            <option value="" disabled selected>Select type...</option>
+                            <option value="Wall mounted">Wall mounted</option>
+                            <option value="Concealed">Concealed</option>
+                            <option value="Cassette">Cassette</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-lg-12 col-md-12">
+                        <!-- <label class="label" for="Message">Message:</label> -->
+                        <textarea class="form-control" id="Message" name="message" placeholder="Write Your Message..."
+                            rows="3" required></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn cuz mt-2"><span>Send</span></button>
+            </form>
+        </div>
+    </div>
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="fa-solid fa-arrow-up text-dark"></i></a>
+    <!-- JavaScript -->
+    <script src="/js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
